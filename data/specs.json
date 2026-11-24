@@ -1,0 +1,1849 @@
+{
+ "fetched_at": "2026-11-24T12:29Z",
+ "sources": {
+  "library": "https://docs.riscv.org/reference/home/index.html",
+  "ratified": "https://lf-riscv.atlassian.net/wiki/spaces/HOME/pages/16154732",
+  "ratified_updated": "2026-10-30T17:37:47.372Z",
+  "status": "https://lf-riscv.atlassian.net/wiki/spaces/HOME/pages/16154861",
+  "status_updated": "2026-10-29T20:34:59.361Z"
+ },
+ "library": [
+  {
+   "section": "Core Architecture",
+   "title": "Unprivileged ISA",
+   "version": "v20260120",
+   "date": "January 2026",
+   "description": "User-level instruction set and standard extensions.",
+   "html": "https://docs.riscv.org/reference/isa/unpriv/unpriv-index.html",
+   "pdf": "https://docs.riscv.org/reference/isa/_attachments/riscv-unprivileged.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/MzM1NWFmYmFjNzlkNGMyMDg0NThjM2ZlODVkZTA3MDE"
+  },
+  {
+   "section": "Core Architecture",
+   "title": "Privileged ISA",
+   "version": "v20260120",
+   "date": "January 2026",
+   "description": "Privileged architecture, execution modes, and system control.",
+   "html": "https://docs.riscv.org/reference/isa/priv/priv-index.html",
+   "pdf": "https://docs.riscv.org/reference/isa/_attachments/riscv-privileged.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NDdlNzQ3YTRiNWZkNDI2ZjlhY2M2YzFkMmExNjI5NTg"
+  },
+  {
+   "section": "Profiles",
+   "title": "RISC-V Profiles",
+   "version": "v1.0",
+   "date": "April 2023",
+   "description": "Base profile definitions and guidance.",
+   "html": "https://docs.riscv.org/reference/rva20-rvi20-rva22/index.html",
+   "pdf": "https://docs.riscv.org/reference/rva20-rvi20-rva22/_attachments/RISC-V_Profiles.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ODAwNTY1YzNmZDQ3NDg5N2FkMGQ5MTRjZWY1ZGY4Yjc"
+  },
+  {
+   "section": "Profiles",
+   "title": "RVA23 Profile",
+   "version": "v1.0",
+   "date": "October 2024",
+   "description": "Application-class profile requirements.",
+   "html": "https://docs.riscv.org/reference/rva23/index.html",
+   "pdf": "https://docs.riscv.org/reference/rva23/_attachments/rva23-profile.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/MWRiOWY4ZjBhZjkzNDI2MTk4ZGMxZDhjNjZjOTMyNDk"
+  },
+  {
+   "section": "Profiles",
+   "title": "RVB23 Profile",
+   "version": "v1.0",
+   "date": "October 2024",
+   "description": "Embedded and edge profile requirements.",
+   "html": "https://docs.riscv.org/reference/rvb23/index.html",
+   "pdf": "https://docs.riscv.org/reference/rvb23/_attachments/rvb23-profile.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/OTQ3N2Q3MmQwNDFmNDUxMDlkMzY0NTgyMjk5YTI3MzE"
+  },
+  {
+   "section": "Platforms",
+   "title": "Server Platform",
+   "version": "v1.0",
+   "date": "May 2026",
+   "description": "Hardware and sofware capabilities that portable system software can rely on being present in a server platform.",
+   "html": "https://docs.riscv.org/reference/server-platform/index.html",
+   "pdf": "https://docs.riscv.org/reference/server-platform/_attachments/riscv-server-platform.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YjgzMGRlYmQzZTEzNGQwZjhjZjBiZjUyMzlhODBiNDQ"
+  },
+  {
+   "section": "System Architecture",
+   "title": "Advanced Interrupt Architecture",
+   "version": "v1.0",
+   "date": "June 2023",
+   "description": "Interrupt architecture and related interfaces.",
+   "html": "https://docs.riscv.org/reference/aia/index.html",
+   "pdf": "https://docs.riscv.org/reference/aia/_attachments/riscv-interrupts.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/MTc1MTUwOTg5NTRkNDk0YjlkOGY1MDk5MTljZGU2MjA"
+  },
+  {
+   "section": "System Architecture",
+   "title": "IOMMU",
+   "version": "v20260222",
+   "date": "February 2026",
+   "description": "IOMMU architecture, registers, queues, and integration guidance.",
+   "html": "https://docs.riscv.org/reference/iommu/index.html",
+   "pdf": "https://docs.riscv.org/reference/iommu/_attachments/riscv-iommu.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ZGY0YjgxZTZhOTY3NDhiZGJhMGZiNzAwMzk3ZmNkNDg"
+  },
+  {
+   "section": "System Architecture",
+   "title": "Platform-Level Interrupt Controller",
+   "version": "v1.0.0",
+   "date": "February 2023",
+   "description": "Interrupt controller behavior and programming model.",
+   "html": "https://docs.riscv.org/reference/plic/index.html",
+   "pdf": "https://docs.riscv.org/reference/plic/_attachments/riscv-plic.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/Mzg2YjQ2ZTBiODYyNDBkNDg2N2JmZmQ1ZTUwOWNmZWI"
+  },
+  {
+   "section": "System Architecture",
+   "title": "Server SoC",
+   "version": "v1.0",
+   "date": "February 2025",
+   "description": "Server-class SoC requirements and conventions.",
+   "html": "https://docs.riscv.org/reference/server-soc/index.html",
+   "pdf": "https://docs.riscv.org/reference/server-soc/_attachments/riscv-server-soc.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NTg4MWJjYjJmZDkxNDdmNWFmMTdkZjYxYTk2MzFjOGI"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "Efficient Trace for RISC-V",
+   "version": "v2.1",
+   "date": "October 2026",
+   "description": "RISC-V Efficient Trace (E-Trace) specification for instruction and data trace encoding.",
+   "html": "https://docs.riscv.org/reference/e-trace/index.html",
+   "pdf": "https://docs.riscv.org/reference/e-trace/_attachments/riscv-trace-spec.pdf",
+   "more": "https://riscv.atlassian.net/browse/RVS-2862"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "QoS Register Interface",
+   "version": "v1.0",
+   "date": "June 2024",
+   "description": "QoS register interface for capacity and bandwidth control.",
+   "html": "https://docs.riscv.org/reference/cbqri/index.html",
+   "pdf": "https://docs.riscv.org/reference/cbqri/_attachments/riscv-cbqri.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YmYxMjUzMmYyOTIxNGIzMmJiZjNiYWY0MGVhNjBkYTc"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "RERI Architecture",
+   "version": "v1.0",
+   "date": "May 2024",
+   "description": "Reliability, availability, and serviceability error records.",
+   "html": "https://docs.riscv.org/reference/ras-eri/index.html",
+   "pdf": "https://docs.riscv.org/reference/ras-eri/_attachments/riscv-reri.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ODE1N2Q2OTJkY2U5NDk2MmI5Zjk2ZmJmYzFiNmI1OTg"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "Debug Specification",
+   "version": "v1.0",
+   "date": "February 2025",
+   "description": "Defines the interfaces for external debugging of RISC-V processors.",
+   "html": "https://docs.riscv.org/reference/debug/index.html",
+   "pdf": "https://docs.riscv.org/reference/debug/_attachments/riscv-debug-specification.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YTljNWI1NDgxMzE2NDIzOGEyYjMzMWRmZmRjOGEwNmE"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "Unformatted Trace & Data Encapsulation",
+   "version": "v1.0",
+   "date": "June 2024",
+   "description": "Encapsulation format for emitted trace data.",
+   "html": "https://docs.riscv.org/reference/trace-encap/index.html",
+   "pdf": "https://docs.riscv.org/reference/trace-encap/_attachments/e-trace-encap.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NDZjYTFmZjQ1YTRhNDIxMjljODViYWU1YzQwMjRlNjk"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "N-Trace",
+   "version": "v1.0",
+   "date": "November 2024",
+   "description": "Nexus-based trace data formatting and transport.",
+   "html": "https://docs.riscv.org/reference/nexus-trace/index.html",
+   "pdf": "https://docs.riscv.org/reference/nexus-trace/_attachments/RISC-V-N-Trace.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ZTUxYTJmNWRkYzhmNDM4ZDg5OWNlMmQxODMyYjY3YjI"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "Trace Connectors",
+   "version": "v1.0",
+   "date": "November 2024",
+   "description": "Connector definitions for trace interoperability.",
+   "html": "https://docs.riscv.org/reference/trace-connectors/index.html",
+   "pdf": "https://docs.riscv.org/reference/trace-connectors/_attachments/RISC-V-Trace-Connectors.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/N2E0Mjk1ZDkzZTM0NDQ2YmJmM2IzZDIxNjBlZTkxNTI"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "Trace Control Interface",
+   "version": "v1.0",
+   "date": "November 2024",
+   "description": "Control and configuration interface for trace features.",
+   "html": "https://docs.riscv.org/reference/trace-control-interface/index.html",
+   "pdf": "https://docs.riscv.org/reference/trace-control-interface/_attachments/RISC-V-Trace-Control-Interface.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ZmZkYWMzYmU5NzZjNDk0M2FkNmJmOWFhOWVjODk4MzE"
+  },
+  {
+   "section": "Debug, Trace, and RAS",
+   "title": "HART Trace Interface",
+   "version": "v1.0",
+   "date": "September 2026",
+   "description": "RISC-V Hart Trace Interface specification for instruction trace encoder communication.",
+   "html": "https://docs.riscv.org/reference/hti/index.html",
+   "pdf": "https://docs.riscv.org/reference/hti/_attachments/riscv-hart-trace-interface.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ZTYxZWJiYWI0MTcwNDIxZWE4ZGRjZWQyMWRiODM3ODk"
+  },
+  {
+   "section": "Platform Software",
+   "title": "Semihosting",
+   "version": "v1.0",
+   "date": "February 2025",
+   "description": "Semihosting interface for development and debugging.",
+   "html": "https://docs.riscv.org/reference/semihosting/index.html",
+   "pdf": "https://docs.riscv.org/reference/semihosting/_attachments/riscv-semihosting.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YjY0ZDBkZjg2M2E4NDYxM2FmMmMwMWM0YTgxZjRmYTc"
+  },
+  {
+   "section": "Platform Software",
+   "title": "Boot and Runtime Services",
+   "version": "v1.0",
+   "date": "August 2025",
+   "description": "Boot-time and runtime software interface requirements.",
+   "html": "https://docs.riscv.org/reference/brs/index.html",
+   "pdf": "https://docs.riscv.org/reference/brs/_attachments/riscv-brs-spec.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YTc0N2FlZDJmNTdiNDJlYzhiMGIyODFlOGQ0YWQyZDg"
+  },
+  {
+   "section": "Platform Software",
+   "title": "Functional Fixed Hardware",
+   "version": "v1.0.1",
+   "date": "October 2024",
+   "description": "FFH interface definitions for platform integration.",
+   "html": "https://docs.riscv.org/reference/acpi-ffh/index.html",
+   "pdf": "https://docs.riscv.org/reference/acpi-ffh/_attachments/riscv-ffh.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NGVhZDQ2MzY3MzZkNGE1MWIxYTYyMWM5N2Y2NTFjZjA"
+  },
+  {
+   "section": "Platform Software",
+   "title": "IO Mapping Table",
+   "version": "v1.0",
+   "date": "March 2025",
+   "description": "Standardized interrupt mapping table format.",
+   "html": "https://docs.riscv.org/reference/acpi-rimt/index.html",
+   "pdf": "https://docs.riscv.org/reference/acpi-rimt/_attachments/rimt-spec.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/ODdiOTYxZjIwOTJlNGM1NWJlM2Y4MDllMzZiODIyNTU"
+  },
+  {
+   "section": "Platform Software",
+   "title": "Platform Management Interface",
+   "version": "v1.0",
+   "date": "July 2025",
+   "description": "Platform management services and messaging definitions.",
+   "html": "https://docs.riscv.org/reference/rpmi/index.html",
+   "pdf": "https://docs.riscv.org/reference/rpmi/_attachments/riscv-rpmi.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/OWIyYzBlNTUyNWM5NDI4ZmIzMDliZjcxOGY1ZDYwZWY"
+  },
+  {
+   "section": "Platform Software",
+   "title": "Supervisor Binary Interface",
+   "version": "v3.0",
+   "date": "July 2025",
+   "description": "Standard interface between supervisor software and firmware.",
+   "html": "https://docs.riscv.org/reference/sbi/index.html",
+   "pdf": "https://docs.riscv.org/reference/sbi/_attachments/riscv-sbi.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NDZmZTk3MDI0ZTA0NDVhOTg5Y2ZlZWI3NGNjZTlmYTQ"
+  },
+  {
+   "section": "Platform Software",
+   "title": "UEFI PROTOCOL",
+   "version": "v1.0.0",
+   "date": "May 2022",
+   "description": "Defines a software interface between an operating system and platform firmware.",
+   "html": "https://docs.riscv.org/reference/uefi/index.html",
+   "pdf": "https://docs.riscv.org/reference/uefi/_attachments/RISCV_UEFI_PROTOCOL-spec.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NDEzOThmNmRjZmZhNDdhNzgxYmYwOWRmMTRkOTBlMTE"
+  },
+  {
+   "section": "Platform Software",
+   "title": "QoS Controllers Table",
+   "version": "v1.0",
+   "date": "June 2026",
+   "description": "Defines the ACPI interface for OSPM configuration and control of QoS controller features.",
+   "html": "https://docs.riscv.org/reference/rqsc/index.html",
+   "pdf": "https://docs.riscv.org/reference/rqsc/_attachments/riscv-rqsc.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YmYyNWFkZWFkMTc1NDZjNjhkNjc5YmIwMmJkMzAxNTU"
+  },
+  {
+   "section": "Application Enablement",
+   "title": "Application Binary Interface",
+   "version": "v1.0",
+   "date": "November 2022",
+   "description": "Application binary interface definitions for ELF tooling.",
+   "html": "https://docs.riscv.org/reference/abi/index.html",
+   "pdf": "https://docs.riscv.org/reference/abi/_attachments/riscv-abi.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/NWMwYmRhMDBkZGI5NDdiNjllZDRkODI2YTRhZDE4ZDc"
+  },
+  {
+   "section": "Application Enablement",
+   "title": "Vector C Intrinsic",
+   "version": "v1.0",
+   "date": "April 2025",
+   "description": "Compiler intrinsics for vector extension programming.",
+   "html": "https://docs.riscv.org/reference/vector-c-intrinsics/index.html",
+   "pdf": "https://docs.riscv.org/reference/vector-c-intrinsics/_attachments/v-intrinsic-spec.pdf",
+   "more": "https://riscv.atlassian.net/wiki/external/YTMyZTE5NDkyNTM5NDZjMjliYTVmMjBjOTBhZWM4ODY"
+  }
+ ],
+ "ratified": [
+  {
+   "spec": "S-level Physical Memory Protection (SPMP)",
+   "url": "https://docs.riscv.org/reference/isa/extensions/sspmp/_attachments/riscv-spmp.pdf",
+   "date": "August 2026",
+   "extensions": [
+    "Sspmp"
+   ]
+  },
+  {
+   "spec": "Instruction/Data Coherence and Consistency",
+   "url": "",
+   "date": "June 2026",
+   "extensions": [
+    "Ziccid"
+   ]
+  },
+  {
+   "spec": "Atomic Load-Acquire and Store-Release Extension",
+   "url": "",
+   "date": "October 2025",
+   "extensions": [
+    "Zalasr"
+   ]
+  },
+  {
+   "spec": "PTE Reserved-for-Software Bits 60-59",
+   "url": "",
+   "date": "August 2025",
+   "extensions": [
+    "Svrsw60t59b"
+   ]
+  },
+  {
+   "spec": "Load/Store Pair for RV32 (Zilsd & Zclsd)",
+   "url": "",
+   "date": "February 2025",
+   "extensions": [
+    "Zilsd",
+    "Zclsd"
+   ]
+  },
+  {
+   "spec": "The RISC-V Debug Specification",
+   "url": "https://docs.riscv.org/reference/debug-trace-ras/debug/_attachments/riscv-debug-specification.pdf",
+   "date": "February 2025",
+   "extensions": [
+    "Sdext",
+    "Sdtrig"
+   ]
+  },
+  {
+   "spec": "RISC-V Control Transfer Records",
+   "url": "",
+   "date": "November 2024",
+   "extensions": [
+    "Smctr",
+    "Ssctr"
+   ]
+  },
+  {
+   "spec": "RISC-V Pointer Masking",
+   "url": "",
+   "date": "October 2024",
+   "extensions": [
+    "Smmpm",
+    "Smnpm",
+    "Ssnpm",
+    "Supm",
+    "Sspm"
+   ]
+  },
+  {
+   "spec": "The RISC-V Instruction Set Manual Volume II: Privileged Architecture",
+   "url": "",
+   "date": "October 2024",
+   "extensions": [
+    "Sm1p13",
+    "Ss1p13"
+   ]
+  },
+  {
+   "spec": "Double Trap",
+   "url": "",
+   "date": "August 2024",
+   "extensions": [
+    "Ssdbltrp",
+    "Smdbltrp"
+   ]
+  },
+  {
+   "spec": "RISC-V Quality-of-Service (QoS) Identifiers",
+   "url": "",
+   "date": "June 2024",
+   "extensions": [
+    "Ssqosid"
+   ]
+  },
+  {
+   "spec": "Obviating Memory-Management Instructions after Marking PTEs Valid",
+   "url": "",
+   "date": "June 2024",
+   "extensions": [
+    "Svvptc"
+   ]
+  },
+  {
+   "spec": "Resumable Non-Maskable Interrupts",
+   "url": "",
+   "date": "June 2024",
+   "extensions": [
+    "Smrnmi"
+   ]
+  },
+  {
+   "spec": "Shadow Stacks and Landing Pads",
+   "url": "",
+   "date": "June 2024",
+   "extensions": [
+    "Zicfiss",
+    "Zicfilp"
+   ]
+  },
+  {
+   "spec": "BF16 Extensions",
+   "url": "",
+   "date": "June 2024",
+   "extensions": [
+    "Zfbfmin",
+    "Zvfbfmin",
+    "Zvfbfwma"
+   ]
+  },
+  {
+   "spec": "Zaamo and Zalrsc Extensions",
+   "url": "",
+   "date": "April 2024",
+   "extensions": [
+    "Zaamo",
+    "Zalrsc"
+   ]
+  },
+  {
+   "spec": "B Standard Extension for Bit Manipulation Instructions",
+   "url": "",
+   "date": "April 2024",
+   "extensions": [
+    "B"
+   ]
+  },
+  {
+   "spec": "Byte and Halfword Atomic Memory Operations (Zabha)",
+   "url": "",
+   "date": "April 2024",
+   "extensions": [
+    "Zabha"
+   ]
+  },
+  {
+   "spec": "RISC-V Supervisor Counter Delegation",
+   "url": "",
+   "date": "March 2024",
+   "extensions": [
+    "Smcdeleg",
+    "Ssccfg"
+   ]
+  },
+  {
+   "spec": "May-Be-Operations",
+   "url": "",
+   "date": "March 2024",
+   "extensions": [
+    "Zimop",
+    "Zcmop"
+   ]
+  },
+  {
+   "spec": "RISC-V Indirect CSR Access (Smcsrind/Sscsrind)",
+   "url": "",
+   "date": "February 2024",
+   "extensions": [
+    "Smcsrind",
+    "Sscsrind"
+   ]
+  },
+  {
+   "spec": "RISC-V Integer Conditional (Zicond) operations extension",
+   "url": "",
+   "date": "November 2023",
+   "extensions": [
+    "Zicond"
+   ]
+  },
+  {
+   "spec": "Hardware Updating of PTE A/D Bits (Svadu)",
+   "url": "",
+   "date": "November 2023",
+   "extensions": [
+    "Svadu"
+   ]
+  },
+  {
+   "spec": "RISC-V Cycle and Instret Privilege Mode Filtering (Smcntrpmf)",
+   "url": "",
+   "date": "November 2023",
+   "extensions": [
+    "Smcntrpmf"
+   ]
+  },
+  {
+   "spec": "Atomic Compare-and-Swap (CAS) Instructions (Zacas)",
+   "url": "",
+   "date": "November 2023",
+   "extensions": [
+    "Zacas"
+   ]
+  },
+  {
+   "spec": "RISC-V Cryptography Extensions Volume II: Vector Instructions",
+   "url": "",
+   "date": "September 2023",
+   "extensions": [
+    "Zvbb",
+    "Zvbc",
+    "Zvkb",
+    "Zvkg",
+    "Zvkn",
+    "Zvknc",
+    "Zvkned",
+    "Zvkng",
+    "Zvknha",
+    "Zvknhb",
+    "Zvks",
+    "Zvksc",
+    "Zvksed",
+    "Zvksg",
+    "Zvksh",
+    "Zvkt"
+   ]
+  },
+  {
+   "spec": "\"Zfa\" Standard Extension for Additional Floating-Point Instructions",
+   "url": "",
+   "date": "September 2023",
+   "extensions": [
+    "Zfa"
+   ]
+  },
+  {
+   "spec": "RISC-V Advanced Interrupt Architecture",
+   "url": "https://docs.riscv.org/reference/hardware/aia/_attachments/riscv-interrupts.pdf",
+   "date": "June 2023",
+   "extensions": [
+    "Smaia",
+    "Ssaia"
+   ]
+  },
+  {
+   "spec": "“Zvfh/Zvfhmin:” Vector Extension for Half-Precision Floating-Point Arithmetic/Vector Extension for Minimal Half- Precision Floating-Point Arithmetic",
+   "url": "",
+   "date": "June 2023",
+   "extensions": [
+    "Zvfh",
+    "Zvfhmin"
+   ]
+  },
+  {
+   "spec": "“Zihintntl” Non-Temporal Locality Hints",
+   "url": "",
+   "date": "May 2023",
+   "extensions": [
+    "Zihintntl"
+   ]
+  },
+  {
+   "spec": "RISC-V Code Size Reduction",
+   "url": "",
+   "date": "April 2023",
+   "extensions": [
+    "Zca",
+    "Zcb",
+    "Zcd",
+    "Zce",
+    "Zcf",
+    "Zcmp",
+    "Zcmt"
+   ]
+  },
+  {
+   "spec": "RISC-V Profiles",
+   "url": "",
+   "date": "March 2023",
+   "extensions": [
+    "RVA20",
+    "RVI20",
+    "RVA22"
+   ]
+  },
+  {
+   "spec": "\"Zicntr\" and \"Zihpm\" Counters",
+   "url": "",
+   "date": "March 2023",
+   "extensions": [
+    "Zicntr",
+    "Zihpm"
+   ]
+  },
+  {
+   "spec": "RV32E and RV64E Base Integer Instruction Sets",
+   "url": "",
+   "date": "January 2023",
+   "extensions": [
+    "RV32E",
+    "RV64E"
+   ]
+  },
+  {
+   "spec": "“Ztso” Standard Extension for Total Store Ordering",
+   "url": "",
+   "date": "January 2023",
+   "extensions": [
+    "Ztso"
+   ]
+  },
+  {
+   "spec": "RISC-V Wait-on-Reservation-Set (Zawrs) extension",
+   "url": "",
+   "date": "November 2022",
+   "extensions": [
+    "Zawrs"
+   ]
+  },
+  {
+   "spec": "Zmmul Extension",
+   "url": "",
+   "date": "June 2022",
+   "extensions": [
+    "Zmmul"
+   ]
+  },
+  {
+   "spec": "PMP Enhancements for memory access and execution prevention on Machine mode (Smepmp)",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Smepmp"
+   ]
+  },
+  {
+   "spec": "RISC-V Base Cache Management Operation ISA Extensions",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Zicbom",
+    "Zicbop",
+    "Zicboz"
+   ]
+  },
+  {
+   "spec": "RISC-V Bit-Manipulation ISA-extensions",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Zba",
+    "Zbb",
+    "Zbc",
+    "Zbs"
+   ]
+  },
+  {
+   "spec": "RISC-V Count Overflow and Mode-Based Filtering Extension",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Sscofpmf"
+   ]
+  },
+  {
+   "spec": "RISC-V Cryptography Extensions Volume I: Scalar & Entropy Source Instructions",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Zbkb",
+    "Zbkc",
+    "Zbkx",
+    "Zknd",
+    "Zkne",
+    "Zknh",
+    "Zksed",
+    "Zksh",
+    "Zkn",
+    "Zks",
+    "Zkt",
+    "Zk",
+    "Zkr"
+   ]
+  },
+  {
+   "spec": "RISC-V State Enable Extension",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Smstateen"
+   ]
+  },
+  {
+   "spec": "RISC-V \"stimecmp / vstimecmp\" Extension",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Sstc"
+   ]
+  },
+  {
+   "spec": "RISC-V Vector Extension",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "V",
+    "Zve32x",
+    "Zve32f",
+    "Zve64x",
+    "Zve64f",
+    "Zve64d",
+    "Zvl32b",
+    "Zvl64b",
+    "Zvl128b",
+    "Zvl256b",
+    "Zvl512b",
+    "Zvl1024b",
+    "Zvl2048b",
+    "Zvl4096b",
+    "Zvl8192b",
+    "Zvl16384b",
+    "Zvl32768b",
+    "Zvl65536b"
+   ]
+  },
+  {
+   "spec": "The RISC-V Instruction Set Manual Volume II: Privileged Architecture",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Sm1p12",
+    "Ss1p12",
+    "Sv57",
+    "Hypervisor",
+    "Svinval",
+    "Svnapot",
+    "Svpbmt"
+   ]
+  },
+  {
+   "spec": "\"Zfh\" and \"Zfhmin\" Standard Extensions for Half-Precision Floating-Point",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Zfh",
+    "Zfhmin"
+   ]
+  },
+  {
+   "spec": "\"Zfinx\", \"Zdinx\", \"Zhinx\", \"Zhinxmin\": Standard Extensions for Floating-Point in Integer Registers",
+   "url": "",
+   "date": "November 2021",
+   "extensions": [
+    "Zfinx",
+    "Zdinx",
+    "Zhinx",
+    "Zhinxmin"
+   ]
+  },
+  {
+   "spec": "“Zihintpause” Pause Hint",
+   "url": "",
+   "date": "February 2021",
+   "extensions": [
+    "Zihintpause"
+   ]
+  },
+  {
+   "spec": "The RISC-V Instruction Set Manual Volume I: Unprivileged ISA",
+   "url": "",
+   "date": "December 2019",
+   "extensions": [
+    "C",
+    "M",
+    "A",
+    "Q",
+    "D",
+    "F",
+    "RV32I",
+    "RV64I",
+    "Zaamo",
+    "Zalrsc",
+    "Zicsr",
+    "Zifencei"
+   ]
+  },
+  {
+   "spec": "The RISC-V Instruction Set Manual Volume II: Privileged Architecture",
+   "url": "",
+   "date": "December 2019",
+   "extensions": [
+    "Sm1p11",
+    "Ss1p11",
+    "Sv32",
+    "Sv39",
+    "Sv48"
+   ]
+  }
+ ],
+ "status": [
+  {
+   "stage": "Inception",
+   "key": "RVS-5117",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5117",
+   "summary": "RV Worlds scalability extension",
+   "status": "Specification Inception",
+   "updated": "04 Nov 2026, 04:50"
+  },
+  {
+   "stage": "Inception",
+   "key": "RVS-5064",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5064",
+   "summary": "Timeout-Wait Configuration (Smtw/Shtw)",
+   "status": "Specification Inception",
+   "updated": "01 Sep 2026, 03:39"
+  },
+  {
+   "stage": "Inception",
+   "key": "RVS-4762",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4762",
+   "summary": "Logic Analyzer Trace",
+   "status": "Specification Inception",
+   "updated": "12 Jun 2026, 11:36"
+  },
+  {
+   "stage": "Inception",
+   "key": "RVS-4708",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4708",
+   "summary": "Byte & Halfword LR/SC (Zabhlrsc)",
+   "status": "Specification Inception",
+   "updated": "23 Oct 2026, 07:49"
+  },
+  {
+   "stage": "Inception",
+   "key": "RVS-4646",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4646",
+   "summary": "A Fast Computation for Large-Integer Arithmetic Proposal",
+   "status": "Specification Inception",
+   "updated": "19 May 2026, 19:09"
+  },
+  {
+   "stage": "Inception",
+   "key": "RVS-4463",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4463",
+   "summary": "Optimization Directives",
+   "status": "Specification Inception",
+   "updated": "19 May 2026, 19:09"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5139",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5139",
+   "summary": "Long Instruction",
+   "isa": "ISA",
+   "updated": "18 Nov 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/LONG/pages/716505098/Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-3131",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3131",
+   "summary": "Self-hosted Trace",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/SHTX/pages/1559920641/Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-2706",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2706",
+   "summary": "Memory Tagging",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:37",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/MTXX/pages/869531817/Memory+Tagging+Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-2611",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2611",
+   "summary": "Composable Custom Extensions",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:37",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/CCEX/pages/179732486/Ratification+Plan+Milestone+Review"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-1942",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1942",
+   "summary": "Performance Events Specification",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5564",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5564",
+   "summary": "Vector Bit Expand and Compress (Zvbec)",
+   "isa": "ISA",
+   "updated": "23 Nov 2026, 22:41",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/USXX/pages/2478374913/Vector+Bit+Compress+and+Expand+Zvbec+Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5078",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5078",
+   "summary": "NAPOT Page Sizes (SvnapotNk)",
+   "isa": "ISA",
+   "updated": "10 Nov 2026, 22:34",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PSXX/pages/2210824197"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5054",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5054",
+   "summary": "Far Jumps and Calls (Zijf)",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/USXX/pages/2211184641/Far+Jumps+and+Calls+%28Zijf%29+Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-3102",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3102",
+   "summary": "Trigger Delegation",
+   "isa": "ISA",
+   "updated": "23 Oct 2026, 07:37",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/SIXX/pages/870645924/Trigger+Delegation+Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5524",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5524",
+   "summary": "RISC-V Serial Debug Protocol (RSDP)",
+   "isa": "NON-ISA",
+   "updated": "02 Nov 2026, 11:09",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/RSDP/pages/2149384200"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5086",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5086",
+   "summary": "psABI",
+   "isa": "NON-ISA",
+   "updated": "23 Oct 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/psabi/pages/159416324/Ratification+Plan"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5082",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5082",
+   "summary": "CBQRI Bandwidth Inactive Entry",
+   "isa": "NON-ISA",
+   "updated": "23 Oct 2026, 13:34",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/SIXX/pages/2210594822"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-5068",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-5068",
+   "summary": "Boot & Runtime Services (BRS) v1.1",
+   "isa": "NON-ISA",
+   "updated": "23 Oct 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/BARS/pages/2211217409"
+  },
+  {
+   "stage": "Planning",
+   "key": "RVS-4752",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4752",
+   "summary": "Instrumentation Trace",
+   "updated": "23 Oct 2026, 07:38",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/FNCS/pages/777617409/Ratification+Plan"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-4802",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4802",
+   "summary": "CPU Utilization Counter Extension (Sscpuutil)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-sscpuutil",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PSXX/pages/2012938246/CPU+Utilization+Counter+Extension+Sscpuutil+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-4344",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4344",
+   "summary": "SPMP for Hypervisor",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-spmp/tree/main/spmp-for-hyp",
+   "plan": "https://riscv.atlassian.net/wiki/external/NjZmZTZjZWIxMTNkNDRjZmI1ZjZmMTk0MDg5YmM2ZjQ",
+   "updated": "05 Nov 2026, 07:04"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-4146",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4146",
+   "summary": "Platform Management Interface - RPMI (2.0)",
+   "isa": "NON-ISA",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PMIX/pages/610271233/RPMI+v2.0+Ratification+Plan",
+   "updated": "11 Nov 2026, 09:06"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-3982",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3982",
+   "summary": "Sdtrig Enhancements (Sdtrigpend and Sdtrigepm)",
+   "isa": "ISA",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/SIXX/pages/569999390/Sdtrig+Enhancements",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-3569",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3569",
+   "summary": "Timing Fences",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-timing-fences",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/TFXX/pages/53837970/Ratification+Plan",
+   "updated": "23 Oct 2026, 07:49"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-2362",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2362",
+   "summary": "High Assurance Cryptography (HAC)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-high-assurance-cryptography",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/HACX/pages/484966423/High+Assurance+Crypto+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:20"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-1790",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1790",
+   "summary": "Attached Matrix Extension (AME)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-attached-matrix-extension",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/AMEX/pages/55083420/Ratification+Plan",
+   "updated": "23 Oct 2026, 07:20"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-4281",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4281",
+   "summary": "Event Trace",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-event-trace",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/EVNT/pages/610631720/Ratification+Plan",
+   "updated": "20 Nov 2026, 10:22"
+  },
+  {
+   "stage": "Under Development",
+   "key": "RVS-3312",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3312",
+   "summary": "RVM Profile",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-rvm-profile",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/RPXX/pages/2136801293/RVM+Ratification+Plan",
+   "updated": "18 Nov 2026, 08:14"
+  },
+  {
+   "stage": "Stabilization",
+   "key": "RVS-2770",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2770",
+   "summary": "Performance Event Sampling",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-performance-event-sampling",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PESX/pages/2003992608/Performance+Event+Sampling+Ratification+Plan",
+   "updated": "11 Nov 2026, 04:17"
+  },
+  {
+   "stage": "Stabilization",
+   "key": "RVS-2360",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2360",
+   "summary": "Post-Quantum Cryptography (Keccak)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-pqc",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PQC/pages/485425183/Post-Quantum+Cryptography+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:20"
+  },
+  {
+   "stage": "Stabilization",
+   "key": "RVS-1971",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1971",
+   "summary": "Dot-Product (Zvdot4a8i)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/2576",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PSXX/pages/766672912/Dot-Product+Zvqdot+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Stabilization",
+   "key": "RVS-1135",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1135",
+   "summary": "Packed SIMD (P)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-p-spec",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/RQGN/pages/155975701/Ratification+Plan",
+   "updated": "27 Oct 2026, 21:24"
+  },
+  {
+   "stage": "Stabilization - Internal Review",
+   "key": "RVS-1971",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1971",
+   "summary": "Dot-Product (Zvdot4a8i)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/2576",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/PSXX/pages/766672912/Dot-Product+Zvqdot+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Stabilization - Internal Review",
+   "key": "RVS-1135",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1135",
+   "summary": "Packed SIMD (P)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-p-spec",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/RQGN/pages/155975701/Ratification+Plan",
+   "updated": "27 Oct 2026, 21:24"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-4890",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4890",
+   "summary": "RISC-V Indexed Integer Load (Zilx)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zilx",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/USXX/pages/2057142278/RISC-V+Integer+Indexed+Load+Zilx+Ratification+Plan",
+   "updated": "03 Nov 2026, 08:54"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-4572",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4572",
+   "summary": "RV Worlds H-extension",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-worlds",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/SXXX/pages/1786642437/RV+Worlds+H-extension+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-4335",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4335",
+   "summary": "Shadow Stacks for M-mode, M+U & SPMP",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/3428",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/SXXX/pages/1002569754/Smcfiss+Ratification+Plan",
+   "updated": "09 Nov 2026, 16:21"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-4161",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4161",
+   "summary": "Vector Unzip Instruction (Zvzip)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/3233",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/USXX/pages/776962058/Vector+Unzip+Instruction+Zvzip+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-3925",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3925",
+   "summary": "Dot-Product and Batched Dot-Product Extensions (Zvdota and Zvbdota)",
+   "isa": "ISA",
+   "github": "https://github.com/aswaterman/riscv-misc/blob/main/isa/ldot-bdot/ldot-bdot.adoc",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/USXX/pages/591233026/Long+Dot-Product+Extensions+Zvldot+and+Batched+Dot-Product+Extensions+Zvbdot+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:20"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-3923",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3923",
+   "summary": "Vector Matrix Extension (VME)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-vme",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/VMEX/pages/663617995/Ratification+Plan",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-3896",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3896",
+   "summary": "Vector Integer Absolute Difference (Zvabd)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/integer-vector-absolute-difference",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/USXX/pages/576389154/Integer+Vector+Absolute+Difference",
+   "updated": "19 Nov 2026, 16:06"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-3748",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3748",
+   "summary": "BF16 & Minimal OFP8 Vector Compute (Zvfbfa, Zvfofp8min)",
+   "isa": "ISA",
+   "github": "https://github.com/aswaterman/riscv-misc/tree/main/isa",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/USXX/pages/393216050/Zvfbfa+and+Zvfofp8min+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-2977",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2977",
+   "summary": "Address-Independent Fault Latency (Svukte)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/1564/files",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-2948",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2948",
+   "summary": "PMP-based Memory Types Extension (Smpmpmt)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/commit/8cacad662eea860f5c7d6d7844d6c4dd20c24ecb",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/PSXX/pages/601555028/Smpmpmt+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:20"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-2940",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2940",
+   "summary": "RISC-V Worlds (Smwid, Smlwid, Smlwidlist, Smwiddeleg, Sswid)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/wordguard",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/PSXX/pages/338919428/Worldguard",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-2141",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2141",
+   "summary": "CHERI",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-cheri",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/CTXX/pages/47022116/CHERI+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1930",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1930",
+   "summary": "Integrated Matrix Extension (IME)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/integrated-matrix-extension",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/IMEX/pages/598867969/IME+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1915",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1915",
+   "summary": "Extra Vector Carry-Less/Crypto Extensions (Zvbc32e, Zvkgs)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/2369",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1906",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1906",
+   "summary": "Confidential VM Extension (CoVE)",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-ap-tee",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1792",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1792",
+   "summary": "External Debug Security (Sdsec)",
+   "github": "https://github.com/riscv-non-isa/riscv-external-debug-security",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1618",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1618",
+   "summary": "Confidential VM Extension (CoVE) with I/O",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-ap-tee-io",
+   "updated": "23 Oct 2026, 07:36"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1345",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1345",
+   "summary": "Supervisor Domains Access Protection (Smmtt)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-smmtt",
+   "updated": "03 Nov 2026, 08:54"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-1017",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1017",
+   "summary": "Fast Interrupts (CLIC)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-fast-interrupt",
+   "updated": "23 Oct 2026, 07:36"
+  },
+  {
+   "stage": "Freeze",
+   "key": "RVS-793",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-793",
+   "summary": "Input/Output Physical Memory Protection (IOPMP)",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/iopmp-spec",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Freeze - Under ARC Review",
+   "key": "RVS-4890",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4890",
+   "summary": "RISC-V Indexed Integer Load (Zilx)",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zilx",
+   "plan": "https://riscv.atlassian.net/wiki/spaces/USXX/pages/2057142278/RISC-V+Integer+Indexed+Load+Zilx+Ratification+Plan",
+   "updated": "03 Nov 2026, 08:54"
+  },
+  {
+   "stage": "Freeze - Under ARC Review",
+   "key": "RVS-2141",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2141",
+   "summary": "CHERI",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-cheri",
+   "plan": "https://lf-riscv.atlassian.net/wiki/spaces/CTXX/pages/47022116/CHERI+Ratification+Plan",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze - Under ARC Review",
+   "key": "RVS-1792",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1792",
+   "summary": "External Debug Security (Sdsec)",
+   "github": "https://github.com/riscv-non-isa/riscv-external-debug-security",
+   "updated": "23 Oct 2026, 07:37"
+  },
+  {
+   "stage": "Freeze - Under ARC Review",
+   "key": "RVS-793",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-793",
+   "summary": "Input/Output Physical Memory Protection (IOPMP)",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/iopmp-spec",
+   "updated": "23 Oct 2026, 07:38"
+  },
+  {
+   "stage": "Public Review",
+   "key": "RVS-1153",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1153",
+   "summary": "Security Model",
+   "status": "Specification in Ratification-Ready",
+   "updated": "23 Oct 2026, 08:20"
+  },
+  {
+   "stage": "Ratification-Ready",
+   "key": "RVS-3828",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3828",
+   "summary": "Specification in Ratification-Ready",
+   "isa": "ISA",
+   "status": "Specification in Ratification-Ready",
+   "github": "https://github.com/riscv/zibi"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-1781",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1781",
+   "summary": "Server Platform",
+   "status": "Specification Ratified",
+   "ratified": "2026-05-28",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-server-platform"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-3826",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3826",
+   "summary": "RISC-V Quality of Service Controllers Table (RQSC)",
+   "status": "Specification Ratified",
+   "ratified": "2026-06-11",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-rqsc"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-3933",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3933",
+   "summary": "Instruction/Data Coherence & Consistency (Ziccid)",
+   "status": "Specification Ratified",
+   "ratified": "2026-06-11",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/2598"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-921",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-921",
+   "summary": "S-mode Physical Memory Protection (SPMP)",
+   "status": "Specification Ratified",
+   "ratified": "2026-08-20",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-spmp"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-3561",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3561",
+   "summary": "RISC-V Hart Trace Interface (RHTI)",
+   "status": "Specification Ratified",
+   "ratified": "2026-09-24",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/host-trace-interface"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4171",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4171",
+   "summary": "RHTI trcstate Extension",
+   "status": "Specification Ratified",
+   "ratified": "2026-09-24",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/hart-trace-interface"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4184",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4184",
+   "summary": "RVB23.1",
+   "status": "Specification Ratified",
+   "ratified": "2026-10-20",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/3298"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4637",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4637",
+   "summary": "Data Trace of Multiple-Memory Access and Compare and Swap",
+   "status": "Specification Ratified",
+   "ratified": "2026-10-23",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-trace-spec/pull/269"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4454",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4454",
+   "summary": "Implicit Return (E-Trace 2.0)",
+   "status": "Specification Ratified",
+   "ratified": "2026-10-23",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-trace-spec/pull/264"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4600",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4600",
+   "summary": "Standard Support Packet extension to E-trace",
+   "status": "Specification Ratified",
+   "ratified": "2026-10-23",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-trace-spec/pull/276"
+  },
+  {
+   "stage": "2026 Ratifications",
+   "key": "RVS-4180",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-4180",
+   "summary": "RVA23.1",
+   "status": "Specification Ratified",
+   "ratified": "2026-10-23",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/3298"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-1948",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1948",
+   "summary": "Load/Store Pair for RV32",
+   "status": "Specification Ratified",
+   "ratified": "2025-01-30",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zilsd"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-981",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-981",
+   "summary": "Debug for Hardware Platforms",
+   "status": "Specification Ratified",
+   "ratified": "2025-02-20",
+   "github": "https://github.com/riscv/riscv-debug-spec/"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-1852",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1852",
+   "summary": "Server SOC",
+   "status": "Specification Ratified",
+   "ratified": "2025-02-20",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/server-soc/"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-2673",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2673",
+   "summary": "Semi-hosting",
+   "status": "Specification Ratified",
+   "ratified": "2025-02-27",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-semihosting"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-2924",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2924",
+   "summary": "IO Mapping Table (RIMT)",
+   "status": "Specification Ratified",
+   "ratified": "2025-03-27",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-acpi-rimt"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-3000",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3000",
+   "summary": "RVV C Intrinsics",
+   "status": "Specification Ratified",
+   "ratified": "2025-04-24",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/rvv-intrinsic-doc"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-2688",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2688",
+   "summary": "Address Range Invalidation",
+   "status": "Specification Ratified",
+   "ratified": "2025-06-19",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-iommu/pull/464/commits"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-2684",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2684",
+   "summary": "Non-leaf PTE Invalidation",
+   "status": "Specification Ratified",
+   "ratified": "2025-06-19",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-iommu/pull/464/commits"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-2922",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2922",
+   "summary": "Supervisor Binary Interface 3.0",
+   "status": "Specification Ratified",
+   "ratified": "2025-07-16",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-sbi-doc"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-1944",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1944",
+   "summary": "Platform Management Interface - RPMI (1.0)",
+   "status": "Specification Ratified",
+   "ratified": "2025-07-16",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-rpmi"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-3647",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-3647",
+   "summary": "PTE Reserved-for-Software Bits 60-59",
+   "status": "Specification Ratified",
+   "ratified": "2025-08-28",
+   "github": "https://github.com/riscv/riscv-isa-manual/pull/1907"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-1193",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1193",
+   "summary": "Boot & Runtime Services (BRS)",
+   "status": "Specification Ratified",
+   "ratified": "2025-08-28",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-brs"
+  },
+  {
+   "stage": "2025 Ratifications",
+   "key": "RVS-1770",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1770",
+   "summary": "Load-Acquire/Store-Release (Zalasr)",
+   "status": "Specification Ratified",
+   "ratified": "2025-10-30",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zalasr"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-653",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-653",
+   "summary": "ACPI Functional Fixed Hardware (FFH)",
+   "status": "Specification Ratified",
+   "ratified": "2024-01-25",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-acpi-ffh"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1161",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1161",
+   "summary": "Supervisor Binary Interface 2.0",
+   "status": "Specification Ratified",
+   "ratified": "2024-01-25",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-sbi-doc"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1250",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1250",
+   "summary": "Indirect Control and Status Register (CSR) Access",
+   "status": "Specification Ratified",
+   "ratified": "2024-02-22",
+   "isa": "ISA",
+   "github": "https://github.com//riscv/riscv-indirect-csr-access"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1005",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1005",
+   "summary": "Supervisor Counter Delegation",
+   "status": "Specification Ratified",
+   "ratified": "2024-03-28",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-smcdeleg-ssccfg"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1603",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1603",
+   "summary": "May-Be-Operations",
+   "status": "Specification Ratified",
+   "ratified": "2024-03-28",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/blob/main/src/zimop.adoc"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-2006",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2006",
+   "summary": "B Extension Components",
+   "status": "Specification Ratified",
+   "ratified": "2024-04-25",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-b"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1995",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1995",
+   "summary": "A Extension Components",
+   "status": "Specification Ratified",
+   "ratified": "2024-04-25",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zaamo-zalrsc"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1685",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1685",
+   "summary": "Byte and Halfword Atomic Memory Operations",
+   "status": "Specification Ratified",
+   "ratified": "2024-04-25",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-zabha"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1590",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1590",
+   "summary": "RAS Error Record Interface (RERI)",
+   "status": "Specification Ratified",
+   "ratified": "2024-05-23",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-ras-eri"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1984",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1984",
+   "summary": "Obviating Memory-Management Instructions after Marking PTEs Valid",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-svvptc"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-753",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-753",
+   "summary": "Quality-of-Service (QoS) Identifiers",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-ssqosid"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1982",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1982",
+   "summary": "Capacity & Bandwidth QoS Register Interface (CBQRI)",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/riscv-cbqri"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1933",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1933",
+   "summary": "E-Trace Encapsulation",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/e-trace-encap"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1083",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1083",
+   "summary": "Resumable Non-maskable Interrupts",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual/blob/dfe0bbe540021ed3637c3ef0d76f05c780974eb6/src/rnmi.adoc#L135"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1059",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1059",
+   "summary": "Shadow Stacks and Landing Pads",
+   "status": "Specification Ratified",
+   "ratified": "2024-06-27",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-cfi"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-704",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-704",
+   "summary": "Brain Float 16 (BFloat16)",
+   "status": "Specification Ratified",
+   "ratified": "2024-07-25",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-bfloat16"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-2291",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2291",
+   "summary": "Double Trap",
+   "status": "Specification Ratified",
+   "ratified": "2024-08-29",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-double-trap"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-2710",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2710",
+   "summary": "RVB23",
+   "status": "Specification Ratified",
+   "ratified": "2024-10-24",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-profiles"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-2708",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2708",
+   "summary": "RVA23",
+   "status": "Specification Ratified",
+   "ratified": "2024-10-24",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-profiles"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-973",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-973",
+   "summary": "Control Transfer Records (CTR)",
+   "status": "Specification Ratified",
+   "ratified": "2024-11-21",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-control-transfer-records"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1564",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1564",
+   "summary": "Nexus-based Trace (N-Trace)",
+   "status": "Specification Ratified",
+   "ratified": "2024-11-21",
+   "isa": "NON-ISA",
+   "github": "https://github.com/riscv-non-isa/tg-nexus-trace"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-1111",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-1111",
+   "summary": "Pointer Masking (J)",
+   "status": "Specification Ratified",
+   "ratified": "2024-11-28",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-j-extension"
+  },
+  {
+   "stage": "2024 Ratifications",
+   "key": "RVS-2364",
+   "key_url": "https://riscv.atlassian.net/browse/RVS-2364",
+   "summary": "Privileged Specification 1.13",
+   "status": "Specification Ratified",
+   "ratified": "2024-11-28",
+   "isa": "ISA",
+   "github": "https://github.com/riscv/riscv-isa-manual"
+  }
+ ]
+}

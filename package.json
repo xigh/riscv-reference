@@ -1,0 +1,13 @@
+{
+  "name": "riscv-reference",
+  "private": true,
+  "description": "Static RISC-V ISA reference generated from riscv-unified-db",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@asciidoctor/core": "^3.0.4"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
+  }
+}

@@ -1,0 +1,5 @@
+/udb/
+/build/
+__pycache__/
+*.log
+/node_modules/
